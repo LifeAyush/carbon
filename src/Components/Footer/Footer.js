@@ -35,23 +35,23 @@ const Footer = () => {
           <div className="footerlist">
             <div><h2>Solutions</h2></div>
             <div><ul>
-              <li>Registeration</li>
+              <li>Registration</li>
               <li>Insurance</li>
-              <li>E-Learning Modulus</li>
+              <li>E-Learning Modules</li>
               <li>Carbon Credit Marketplace</li>
               <li>Carbon Accounting Dashboard</li>
             </ul>
           </div></div>
           <div className="footerlist">
-            <h2>Solutions</h2>
+            <h2>Company</h2>
             <ul>
-              <li>Registeration</li>
+              <li>About Us</li>
             </ul>
           </div>
           <div className="footerlist">
-            <h2>Solutions</h2>
+            <h2>Legal</h2>
             <ul>
-              <li>Registeration</li>
+              <li>Terms</li>
             </ul>
           </div>
         </div>

@@ -1,8 +1,13 @@
+ *{
+  
+        font-family: "Milliard";
+       
+ }
  .footer {
     display: flex;
     flex-direction: row;
     height: 23rem;
-    color: white;
+    color: #FAF9F9;
 }
 
 .footerlogoaddress {
@@ -21,12 +26,16 @@
     flex-direction: column;
 }
 .footercontent .footerheading{
-    font-size: 28px;
+    font-size: 1.75rem;
+    font-family: "Milliard";
+    font-weight: 600;
    
 }
 
 .footeraddress {
-    font-size: 18px;
+    font-size: 1.125rem;
+    font-family: "Milliard";
+    font-weight: 400;
     margin-left: 8%
 }
 
@@ -52,7 +61,8 @@
     border-radius: 7px;
    text-align: center;
 color: 'rgba(240.96, 240.96, 240.96, 0.45)';
- font-size: 16px;
+ font-size: 1.25rem;
+font-family: "Milliard";
   font-weight: '400';
 }
 
@@ -65,14 +75,19 @@ color: 'rgba(240.96, 240.96, 240.96, 0.45)';
     
 }
 .footersecondline h2{
-    font-size: 24px;
+    font-size: 1.5rem;
+   
+        font-family: "Milliard";
+      
     font-weight: 600;
     position: relative;
    margin-bottom: 8%;
 }
   li{
     list-style: none;
-   
+font-size: 1.125rem;
+    font-family: "Milliard";
+    font-weight: 400;
    
 }
 .footersecondline h2::after {
