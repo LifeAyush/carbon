@@ -1,0 +1,91 @@
+ .footer {
+    display: flex;
+    flex-direction: row;
+    height: 23rem;
+    color: white;
+}
+
+.footerlogoaddress {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4%;
+}
+.footercontent{
+     margin-top: 2%;
+    gap: 16%;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+.footercontent .footerheading{
+    font-size: 28px;
+   
+}
+
+.footeraddress {
+    font-size: 18px;
+    margin-left: 8%
+}
+
+.footerlogo {
+    width: 25%;
+    height: 30%;
+    margin-left: 8%;
+}
+
+.footerfirstline {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+
+ 
+}
+
+.footeremail{
+    width: 20vw;
+    background:rgba(255, 255, 255, 0.21);
+    border:none ;
+    border-radius: 7px;
+   text-align: center;
+color: 'rgba(240.96, 240.96, 240.96, 0.45)';
+ font-size: 16px;
+  font-weight: '400';
+}
+
+.footersecondline {
+    display: flex;
+    flex-direction: row;
+
+    width: 50vw;
+    justify-content: space-between;
+    
+}
+.footersecondline h2{
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+   margin-bottom: 8%;
+}
+  li{
+    list-style: none;
+   
+   
+}
+.footersecondline h2::after {
+   
+  content : "";
+  position : absolute;
+width: 12rem;
+  height : 0.5px;
+  background-color: white;
+  bottom: -8%;
+  opacity: 0.5;
+  left: 0;
+  
+  /*width: '100%', height: '100%', opacity: 0.50, border: '0.50px white solid'*/
+}   
+  

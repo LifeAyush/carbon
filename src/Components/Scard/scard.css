@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scard {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    flex: 0 0 calc(33% - 20px);
+    justify-content: center;
+    align-items: center;
+    max-width: calc(33% - 20px);
+
+
+}
+
+/* .scard:hover .scard-body {
+    background: rgba(56, 56, 56, 0.1);
+}
+
+.scard:hover .scard-header-title {
+    color: #475467;
+}
+
+.scard:hover .scard-header-val {
+    color: #5a6b8398;
+} */
+
+
+
+.scard-img {
+    width: 108px;
+    height: 108px;
+    border-radius: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.scard-img .img{
+height: 150px;
+width: 150px;
+}
+
+.scard-body {
+    display: flex;
+    flex-direction: column;
+
+
+    /* padding: 20px 0 0 0; */
+    /* background: #ffffff; */
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.scard-header {
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+    align-items: center;
+    width: 250px;
+    text-align: center;
+
+}
+
+.scard-header-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    color: #f0f2f7;
+    transition: all 0.3s ease;
+}
+
+.scard-header-por {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 20px;
+
+
+    color: #f6f7f9;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
