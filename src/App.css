@@ -1,0 +1,29 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Fonts */
+@font-face {
+  font-family: Milliard;
+  src: url(./Assets/Fonts/Millard/Rene\ Bieder\ \ Milliard\ Medium.otf);
+}
+@font-face {
+  font-family: Florencesans-Black;
+  src: url(./Assets/Fonts/FlourenceSans/FlorenceSans.ttf);
+}
+
+/* Variables */
+:root {
+  --white: #fbfcf8;
+  --dark-grey: #303030;
+  --light-green: #2cda8b;
+  --second-green: #014d4a;
+}
+
+/* App Styling */
+.App {
+  position: relative;
+}
