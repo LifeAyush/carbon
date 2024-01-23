@@ -6,7 +6,7 @@ import stats1 from "../../Assets/stats-1.svg";
 import stats3 from "../../Assets/stats-3.svg";
 import stats4 from "../../Assets/stats-4.svg";
 import stats5 from "../../Assets/stats-5.svg";
-import bg from "../../Assets/stats-bg.png";
+import bg from "../../Assets/statsbg.png";
 
 
 const Stats = () => {
@@ -88,13 +88,7 @@ const sData = [
       >
         <div
           className="card-grid"
-          style={{
-            backgroundImage: `url(${bg})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "100vh",
-          }}
+          
         >
           {sData.map((group, id) => {
             return <Scard key={id} data={group} />;

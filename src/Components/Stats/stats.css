@@ -1,10 +1,15 @@
 *{
     box-sizing: border-box;
 }
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card-grid {
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 82%;
     justify-content: center;
     flex-wrap: wrap;
     padding: 40px;
@@ -16,6 +21,9 @@
    
     /* margin-left: 10px;
     margin-right: 10px */
+    border: 2px solid #F6F3F3;
+    border-radius: 12px;
+   
 }
 
 .card-grid .scard {
