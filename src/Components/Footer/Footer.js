@@ -1,8 +1,7 @@
-import React from 'react'
-import "./footer.css"
-import bottomGraphic from "../../Assets/Ftimg.png";
-import footerlogo from '../../Assets/footerlogo.svg';
-import bg from "../../Assets/Ftimg.png";
+import React from "react";
+import "./footer.css";
+import footerlogo from "../../Assets/Images/footerlogo.svg";
+import bg from "../../Assets/Images/Ftimg.png";
 
 const Footer = () => {
   return (
@@ -13,11 +12,10 @@ const Footer = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-       
       }}
     >
       <div className="footerlogoaddress">
-        <img className="footerlogo" src={footerlogo}></img>
+        <img className="footerlogo" src={footerlogo} alt="Carbon UTurn"></img>
         <div className="footeraddress">
           XYZ sector Gurgaon, India <br></br> +91 1234567890
         </div>
@@ -33,15 +31,19 @@ const Footer = () => {
         </div>
         <div className="footersecondline">
           <div className="footerlist">
-            <div><h2>Solutions</h2></div>
-            <div><ul>
-              <li>Registration</li>
-              <li>Insurance</li>
-              <li>E-Learning Modules</li>
-              <li>Carbon Credit Marketplace</li>
-              <li>Carbon Accounting Dashboard</li>
-            </ul>
-          </div></div>
+            <div>
+              <h2>Solutions</h2>
+            </div>
+            <div>
+              <ul>
+                <li>Registration</li>
+                <li>Insurance</li>
+                <li>E-Learning Modules</li>
+                <li>Carbon Credit Marketplace</li>
+                <li>Carbon Accounting Dashboard</li>
+              </ul>
+            </div>
+          </div>
           <div className="footerlist">
             <h2>Company</h2>
             <ul>
@@ -61,10 +63,4 @@ const Footer = () => {
 };
 
 export default Footer;
-
-/*<img
-        src={bottomGraphic}
-        alt="Graphic"
-        className="bottom-graphic non-draggable"
-      /> */
 
