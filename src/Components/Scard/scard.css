@@ -65,13 +65,16 @@
   transition: all 0.3s ease;
 }
 
-.scard-header-por {
-  font-family: "Milliard";
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
-  font-size: 1.25rem;
 
-  color: #fbfcf8;
-  transition: all 0.3s ease;
+.scard-header-val {
+font-family: "Milliard";
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.25rem;
+
+
+    color: #FBFCF8;
+    transition: all 0.3s ease;
+
 }
