@@ -9,14 +9,10 @@ import OurServices from '../../Components/OurServices/OurServices';
 const Home = () => {
   return (
     <div>
-
       <Navbar />
       <Hero />
-      <OurServices />
-
-      {/* <Navbar /> */}
-
       <Stats />
+      <OurServices />
       <Footer /> 
     </div>
   )

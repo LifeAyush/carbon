@@ -39,9 +39,9 @@
   position: relative;
   transition: 0.25s ease-in-out;
 }
-/* .our-services-card:hover {
-  transform: scale(1.08);
-} */
+.our-services-card:hover {
+  scale: 1.08;
+}
 .text-ramp {
   background: linear-gradient(
     180deg,
