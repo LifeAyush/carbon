@@ -5,18 +5,16 @@ import Stats from "../../Components/Stats/Stats";
 import Footer from "../../Components/Footer/Footer";
 import Hero from '../../Components/Hero/Hero';
 import OurServices from '../../Components/OurServices/OurServices';
+import Journey from '../../Components/Journey/Journey';
 
 const Home = () => {
   return (
     <div>
-
       <Navbar />
       <Hero />
-      <OurServices />
-
-      {/* <Navbar /> */}
-
+      <Journey />
       <Stats />
+      <OurServices />
       <Footer /> 
     </div>
   )

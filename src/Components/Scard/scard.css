@@ -1,20 +1,13 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .scard {
-    display: flex;
-    flex-direction: column;
-   
-    height: 240px;
-    flex: 0 0 calc(33% - 20px);
-    justify-content: flex-start;
-    align-items: center;
-    max-width: calc(33% - 20px);
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
 
-
+  height: 240px;
+  flex: 0 0 calc(33% - 20px);
+  justify-content: flex-start;
+  align-items: center;
+  max-width: calc(33% - 20px);
+  gap: 0.5rem;
 }
 
 /* .scard:hover .scard-body {
@@ -29,52 +22,49 @@
     color: #5a6b8398;
 } */
 
-
-
 .scard-img {
-    width: 108px;
-    height: 108px;
-    border-radius: 0;
-    justify-content: center;
-    display: flex;
-    flex-direction: column-reverse;
-    transition: transform .7s ease-in-out;
-    
+  width: 108px;
+  height: 108px;
+  border-radius: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column-reverse;
+  transition: transform 0.7s ease-in-out;
 }
 .scard-img:hover {
- transform: rotate(360deg);}
+  transform: rotate(360deg);
+}
 
 .scard-body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-
-    /* padding: 20px 0 0 0; */
-    /* background: #ffffff; */
-    height: 100px;
-    transition: all 0.3s ease;
+  /* padding: 20px 0 0 0; */
+  /* background: #ffffff; */
+  height: 100px;
+  transition: all 0.3s ease;
 }
 
 .scard-header {
-    display: flex;
-    flex-direction: column;
-    /* gap: 8px; */
-    align-items: center;
-    width: 300px;
-    text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  /* gap: 8px; */
+  align-items: center;
+  width: 300px;
+  text-align: center;
 }
 
 .scard-header-title {
-    font-family: "Milliard";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 32px;
-    margin: 0;
-    color: #FBFCF8;
-    transition: all 0.3s ease;
+  font-family: "Milliard";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 32px;
+  margin: 0;
+  color: #fbfcf8;
+  transition: all 0.3s ease;
 }
+
 
 .scard-header-val {
 font-family: "Milliard";
@@ -86,13 +76,5 @@ font-family: "Milliard";
 
     color: #FBFCF8;
     transition: all 0.3s ease;
+
 }
-
-
-
-
-
-
-
-
-

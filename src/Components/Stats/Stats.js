@@ -1,15 +1,15 @@
 import React from "react";
 import "./stats.css";
 import Scard from "../Scard/Scard";
-import stats2 from "../../Assets/stats-2.svg";
-import stats1 from "../../Assets/stats-1.svg";
-import stats3 from "../../Assets/stats-3.svg";
-import stats4 from "../../Assets/stats-4.svg";
-import stats5 from "../../Assets/stats-5.svg";
-import bg from "../../Assets/statsbg.png";
-
+import stats2 from "../../Assets/Images/stats-2.svg";
+import stats1 from "../../Assets/Images/stats-1.svg";
+import stats3 from "../../Assets/Images/stats-3.svg";
+import stats4 from "../../Assets/Images/stats-4.svg";
+import stats5 from "../../Assets/Images/stats-5.svg";
+import bg from "../../Assets/Images/statsbg.png";
 
 const Stats = () => {
+
 
 const sData = [
   {
@@ -49,6 +49,7 @@ const sData = [
   },
 ];
 
+
   return (
     <>
       <div
@@ -61,10 +62,7 @@ const sData = [
           height: "100vh",
         }}
       >
-        <div
-          className="card-grid"
-          
-        >
+        <div className="card-grid">
           {sData.map((group, id) => {
             return <Scard key={id} data={group} />;
           })}

@@ -38,10 +38,11 @@
   border-radius: 12px;
   position: relative;
   transition: 0.25s ease-in-out;
+  cursor: pointer;
 }
-/* .our-services-card:hover {
-  transform: scale(1.08);
-} */
+.our-services-card:hover {
+  scale: 1.08;
+}
 .text-ramp {
   background: linear-gradient(
     180deg,
