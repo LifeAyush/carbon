@@ -23,8 +23,8 @@
 } */
 
 .scard-img {
-  width: 108px;
-  height: 108px;
+   width: 108px;
+  height: 108px; 
   border-radius: 0;
   justify-content: center;
   display: flex;

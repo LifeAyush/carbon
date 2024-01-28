@@ -8,11 +8,11 @@ const Scard = ({ data }) => {
         className="scard-img"
         style={{
           backgroundImage: `url(${data.img})`,
-          height: "108px",
+          // height: "110px",
 
           backgroundSize: "cover",
 
-          width: "108px",
+          // width: "112px",
           backgroundRepeat: "no-repeat",
         }}
       ></div>
