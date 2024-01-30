@@ -27,10 +27,11 @@
 }
 
 .footeraddress {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "Milliard";
-  font-weight: 400;
+  font-weight:100;
   margin-left: 8%;
+  opacity: 80%;
 }
 
 .footerlogo {
@@ -53,7 +54,7 @@
   border-radius: 7px;
   text-align: center;
   color: "rgba(240.96, 240.96, 240.96, 0.45)";
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-family: "Milliard";
   font-weight: "400";
 }
@@ -76,9 +77,10 @@
 }
 li {
   list-style: none;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "Milliard";
   font-weight: 400;
+  opacity: 80%;
 }
 .footersecondline h2::after {
   content: "";
