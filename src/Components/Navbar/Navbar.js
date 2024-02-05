@@ -1,10 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "../../Assets/Images/logo.svg";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+
+    setVisible(prevScrollPos > currentScrollPos && currentScrollPos > 100);
+    if (currentScrollPos === 0) setVisible(true);
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos, visible]);
+
+  console.log(visible);
   const navItems = [
     {
       id: 1,
@@ -33,7 +52,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="nav">
+    <div className={visible ? "nav" : "nav-inv"}>
       <img src={logo} alt="Carbon UTurn" className="nav-logo" />
       <div className="nav-controls">
         {navItems.map((item) => {
@@ -50,7 +69,7 @@ const Navbar = () => {
         })}
       </div>
       <div className="balancing-div">
-        <button className="nav-cta">Get Started</button>
+        <div className="nav-cta">Get Started</div>
       </div>
     </div>
   );

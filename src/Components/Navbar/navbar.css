@@ -8,6 +8,30 @@
   z-index: 10;
   top: 0px;
   left: 0px;
+  animation-name: comeIN;
+  animation-duration: 0.35s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes comeIN {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.nav-inv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 100px;
+  position: fixed;
+  z-index: 10;
+  top: -100px;
+  left: 0px;
 }
 .nav-logo {
   width: 200px;
@@ -52,13 +76,12 @@
   align-items: center;
   gap: 8px;
   border-radius: 32px;
-  border: 1px solid var(--white);
-  background: rgba(112, 110, 110, 0);
-  color: var(--white, #fbfcf8);
+  background: var(--Darkest-green);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
   font-family: Milliard;
-  font-size: 1rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  cursor: pointer;
 }
