@@ -1,7 +1,7 @@
 import React from "react";
 import "./stats.css";
 import Scard from "../Scard/Scard";
-import stats2 from "../../Assets/Images/stats-2.svg";
+import stats2 from "../../Assets/Images/stats-22.svg";
 import stats1 from "../../Assets/Images/stats-1.svg";
 import stats3 from "../../Assets/Images/stats-3.svg";
 import stats4 from "../../Assets/Images/stats-4.svg";
