@@ -2,14 +2,46 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.main-2{
+  height: 90%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #f6f3f3;
+      border-radius: 12px;
+      /* padding: 20px; */
+      border: opacity 0.5em;
+  
+}
+.heading-stats{
+  /* color: #f6f3f3; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  left:50;
+
+  font-family: "Milliard";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: 0;
+    line-height: 32px;
+ 
+    color: #fbfcf8;
 }
 .card-grid {
   display: flex;
   width: 90%;
-  height: 82%;
+  height: 75%;
   justify-content: center;
   flex-wrap: wrap;
   padding: 40px;
+  
+   
   /* outline: 2px solid #F6F3F3;
     outline-offset: -20px; */
   /* border: 2px solid white;
@@ -18,9 +50,9 @@
 
   /* margin-left: 10px;
     margin-right: 10px */
-  border: 2px solid #f6f3f3;
+  /* border: 2px solid #f6f3f3;
   border-radius: 12px;
-  border: opacity 0.5em;
+  border: opacity 0.5em; */
 }
 
 .card-grid .scard {

@@ -62,11 +62,15 @@ const sData = [
           height: "100vh",
         }}
       >
+      <div className="main-2">
+      <div className="heading-stats">
+        <h1> We Aim To Reduce</h1>
+      </div>
         <div className="card-grid">
           {sData.map((group, id) => {
             return <Scard key={id} data={group} />;
           })}
-        </div>
+        </div></div>
       </div>
     </>
   );
