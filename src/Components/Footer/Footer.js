@@ -26,7 +26,7 @@ const Footer = () => {
           <input
             className="footeremail"
             type="email"
-            placeholder="Enter Email"
+            placeholder="Enter Your Email"
           ></input>
         </div>
         <div className="footersecondline">

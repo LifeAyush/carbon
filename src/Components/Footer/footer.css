@@ -29,7 +29,7 @@
 .footeraddress {
   font-size: 1rem;
   font-family: "Milliard";
-  font-weight:100;
+  font-weight: 100;
   margin-left: 8%;
   opacity: 80%;
 }
@@ -52,11 +52,14 @@
   background: rgba(255, 255, 255, 0.21);
   border: none;
   border-radius: 7px;
-  text-align: center;
-  color: "rgba(240.96, 240.96, 240.96, 0.45)";
+  color: #fff;
   font-size: 1.1rem;
   font-family: "Milliard";
   font-weight: "400";
+  padding: 8px;
+}
+.footeremail::placeholder {
+  color: rgba(240.96, 240.96, 240.96, 0.45);
 }
 
 .footersecondline {
