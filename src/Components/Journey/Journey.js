@@ -3,6 +3,7 @@ import "./journey.css";
 import journey1 from "../../Assets/Images/journey1.png";
 import journey2 from "../../Assets/Images/journey2.png";
 import journey3 from "../../Assets/Images/journey3.png";
+import JourneySlider from "./JourneySlider";
 
 const Journey = () => {
   return (
@@ -11,7 +12,8 @@ const Journey = () => {
         <span className="journey-content-subtitle">Your U-turn to</span>
         <span className="journey-content-title">Net Zero Journey</span>
       </div>
-      <div className="journey-carousel">
+      <JourneySlider />
+      {/* <div className="journey-carousel">
         <div className="journey-carousel-card-primary-border">
           <div className="journey-carousel-card-primary">
             <img
@@ -40,7 +42,7 @@ const Journey = () => {
             className="journey-carousel-card-img"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

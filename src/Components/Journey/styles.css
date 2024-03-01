@@ -1,0 +1,49 @@
+.tenants-middle {
+  position: relative;
+  margin: 10rem 0 2rem 0;
+}
+.rec .rec-carousel {
+  width: 50vw;
+  border: 1px solid red;
+  position: relative;
+}
+.rec .rec-pagination {
+  display: flex;
+  margin: 2rem -0.6rem 0 0;
+}
+.rec .rec-item-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid green;
+}
+
+.rec .rec-arrow-down,
+.rec .rec-arrow-up {
+  visibility: hidden;
+}
+.rec .rec-dot {
+  position: relative;
+  background-color: blueviolet;
+  outline: none;
+  overflow: hidden;
+  border: none;
+  transition: all 0.3s ease;
+}
+.rec .rec-dot_active {
+  background-color: yellowgreen;
+  outline: none;
+  overflow: hidden;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.primary-card {
+  height: 500px;
+}
+.secondary-card {
+  height: 300px;
+}
+.carousel-flex {
+  display: flex;
+  align-items: center;
+}
