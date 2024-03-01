@@ -1,7 +1,10 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import "./styles.css";
 import "./journey.css";
 import Carousel from "react-elastic-carousel";
+import journey1 from "../../Assets/Images/journey1.png";
+import journey2 from "../../Assets/Images/journey2.png";
+import journey3 from "../../Assets/Images/journey3.png";
 
 const JourneySlider = () => {
   const wheeling = useRef(false);
@@ -95,26 +98,44 @@ const JourneySlider = () => {
         infinite
         className="carousel-flex"
       >
-        <img
-          src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
-          alt="new"
-          className="primary-card"
-        />
-        <img
+        <div className="journey-carousel-card-primary">
+          <img
+            src={journey1}
+            alt="journey1"
+            className="journey-carousel-card-img"
+          />
+          <div className="journey-carousel-card-mask" />
+          <div className="journey-carousel-card-para">
+            We fuel green initiatives for individuals and businesses,
+            accelerating their path to Net Zero.
+          </div>
+        </div>
+        <div className="journey-carousel-card-secondary">
+          <img
+            src={journey2}
+            alt="journey2"
+            className="journey-carousel-card-img"
+          />
+        </div>
+        <div className="journey-carousel-card-tertiary">
+          <img
+            src={journey3}
+            alt="journey3"
+            className="journey-carousel-card-img"
+          />
+        </div>
+        <div className="journey-carousel-card-tertiary">
+          <img
+            src={journey3}
+            alt="journey3"
+            className="journey-carousel-card-img"
+          />
+        </div>
+        {/* <img
           src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
           alt="new"
           className="secondary-card"
-        />
-        <img
-          src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
-          alt="new"
-          className="secondary-card"
-        />
-        <img
-          src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
-          alt="new"
-          className="secondary-card"
-        />
+        /> */}
       </Carousel>
     </div>
   );
