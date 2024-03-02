@@ -1,130 +1,133 @@
 .journey {
-  height: 100vh;
-  background: linear-gradient(
-    117deg,
-    #e7fffb 0%,
-    #fff 63.59%,
-    #cefff7 79.94%,
-    #fcfcfc 95.9%
-  );
-  display: flex;
-  align-items: center;
-  padding: 0px 70px;
-  position: relative;
+    height: 185vh;
+    padding: 10vh 0 10vh 5vw;
+    position: relative;
+    /* overflow: hidden; */
 }
 .journey-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-  justify-content: center;
-  position: relative;
-  z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    height: 80vh;
 }
 .journey-content-subtitle {
-  color: #2eaf7d;
-  -webkit-text-stroke-width: 0.5;
-  -webkit-text-stroke-color: #2eaf7d;
-  font-family: Milliard;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    color: #2eaf7d;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #2eaf7d;
+    font-family: Milliard;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .journey-content-title {
-  color: var(--second-green, #014d4a);
-  text-shadow: 8px 8px 10px rgba(255, 255, 255, 0.4);
-  font-family: "Florencesans-Black";
-  font-size: 6.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110%;
-  text-transform: uppercase;
-  width: 34.125rem;
+    color: var(--second-green, #014d4a);
+    text-shadow: 8px 8px 10px rgba(255, 255, 255, 0.4);
+    font-family: "Florencesans-Black";
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 34.125rem;
 }
 .journey-carousel {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  overflow-x: auto; 
-  border: 1px solid red;
-  position: relative;
-  left: -50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    border: 1px solid red;
+    position: relative;
+    left: -50px;
 }
-.journey-carousel::-webkit-scrollbar{
-  display: none;
+.journey-carousel::-webkit-scrollbar {
+    display: none;
 }
 .journey-carousel-card-primary-border {
-  position: relative;
-  width: 429px;
-  height: 680px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  position: relative;
+    position: relative;
+    width: 429px;
+    height: 680px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
 }
 .journey-carousel-card-primary {
-  width: 380px;
-  height: 100%;
-  border-radius: 12px;
-  position: relative;
-  z-index: 1;
+    width: 380px;
+    height: 100%;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
 }
 .journey-carousel-card-primary-border::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 12px;
-  padding: 5px;
-  background: linear-gradient(#014d4a, #d4d7d700);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 5px;
+    background: linear-gradient(#014d4a, #d4d7d700);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
 }
 .journey-carousel-card-img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .journey-carousel-card-mask {
-  background: linear-gradient(
-    180deg,
-    rgba(234, 255, 251, 0.34) 0%,
-    rgba(0, 0, 0, 0.61) 55.67%
-  );
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  border-radius: 12px;
+    background: linear-gradient(
+        180deg,
+        rgba(234, 255, 251, 0.34) 0%,
+        rgba(0, 0, 0, 0.61) 55.67%
+    );
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    border-radius: 12px;
 }
 .journey-carousel-card-para {
-  position: absolute;
-  z-index: 4;
-  bottom: 46px;
-  width: 100%;
-  padding: 0px 36px;
-  color: #fff;
-  font-family: Milliard;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 133.333%;
+    position: absolute;
+    z-index: 4;
+    bottom: 46px;
+    width: 100%;
+    padding: 0px 36px;
+    color: #fff;
+    font-family: Milliard;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.333%;
 }
 .journey-carousel-card-secondary {
-  width: 254px;
-  height: 405px;
-  flex-shrink: 0;
+    width: 254px;
+    height: 405px;
+    flex-shrink: 0;
 }
 .journey-carousel-card-tertiary {
-  width: 166px;
-  height: 267px;
-  flex-shrink: 0;
+    width: 166px;
+    height: 267px;
+    flex-shrink: 0;
+}
+.journey-slider-container {
+    overflow: hidden;
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    height: 80vh;
 }
