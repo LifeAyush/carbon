@@ -12,8 +12,8 @@ const Journey = () => {
         <span className="journey-content-subtitle">Your U-turn to</span>
         <span className="journey-content-title">Net Zero Journey</span>
       </div>
-      <JourneySlider />
-      {/* <div className="journey-carousel">
+      {/* <JourneySlider /> */}
+      <div className="journey-carousel">
         <div className="journey-carousel-card-primary-border">
           <div className="journey-carousel-card-primary">
             <img
@@ -42,7 +42,7 @@ const Journey = () => {
             className="journey-carousel-card-img"
           />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

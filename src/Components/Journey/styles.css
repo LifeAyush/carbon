@@ -19,7 +19,7 @@
   gap: 20px;
   position: relative;
   left: calc(100%);
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 400px !important;
 }
 

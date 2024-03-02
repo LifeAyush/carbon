@@ -1,17 +1,19 @@
 .hero {
   height: 100vh;
   position: relative;
-  background-image: url(../../Assets/Images/heroB1.png);
+  background-image: url(../../Assets/Images/heroB4.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  animation: changeBg 5s ease-in-out 1 forwards;
+  animation: changeBg 7s ease-in-out 1 forwards;
+  filter: grayscale(1);
 }
 @keyframes changeBg {
   0% {
-    background-image: url(../../Assets/Images/heroB1.png);
+    filter: grayscale(1);
+    /* background-image: url(../../Assets/Images/heroB1.png); */
   }
-  15% {
+  /* 15% {
     background-image: url(../../Assets/Images/heroB11.png);
   }
   33% {
@@ -25,9 +27,10 @@
   }
   78% {
     background-image: url(../../Assets/Images/heroB33.png);
-  }
+  } */
   100% {
-    background-image: url(../../Assets/Images/heroB4.png);
+    /* background-image: url(../../Assets/Images/heroB4.png); */
+    filter: grayscale(0);
   }
 }
 .hero::after {
