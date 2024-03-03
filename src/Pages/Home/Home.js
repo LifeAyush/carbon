@@ -13,7 +13,7 @@ const Home = () => {
       <Navbar />
       <div className="home-content">
         <Hero />
-        <Journey />
+        {/* <Journey /> */}
         <Stats />
         <OurServices />
         <Footer />
