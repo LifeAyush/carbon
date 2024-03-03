@@ -12,7 +12,7 @@ const Journey = () => {
             console.log(offset)
             let percentage =
                 ((window.scrollY - offset) / window.innerHeight) * 100
-            slider.style.transform = `translate3d(${-percentage}vw, 0, 0)`
+            slider.style.transform = `translate3d(${-percentage + 40}vw, 0, 0)`
         }
         window.addEventListener("scroll", (e) => {
             transform(cont.current)
