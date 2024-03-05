@@ -14,6 +14,7 @@
     z-index: 2;
     background-color: white;
     height: 80vh;
+    padding-right: 1.5em;
 }
 .journey-content-subtitle {
     color: #2eaf7d;

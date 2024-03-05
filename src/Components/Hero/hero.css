@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  animation: changeBg 7s linear 1 forwards;
+  animation: changeBg 2.5s linear 1 forwards;
   filter: grayscale(1);
 }
 @keyframes changeBg {

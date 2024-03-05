@@ -9,7 +9,9 @@ const Hero = () => {
           We guide our partners towards net zero emissions, making every
           footprint count for a cleaner, brighter business landscape.
         </p>
-        <button className="hero-cta">Get Started</button>
+        <a href="#next-section">
+          <div className="hero-cta">Get Started</div>
+        </a>
       </div>
     </div>
   );

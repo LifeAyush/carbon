@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "../../Assets/Images/logo.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -28,32 +28,34 @@ const Navbar = () => {
     {
       id: 1,
       name: "Services",
-      url: "/services",
+      url: "/",
     },
     {
       id: 2,
       name: "Resources",
-      url: "/resources",
+      url: "/",
     },
     {
       id: 3,
       name: "About Us",
-      url: "/about-us",
+      url: "/",
     },
     {
       id: 4,
       name: "Partners",
-      url: "/partners",
+      url: "/",
     },
     {
       id: 5,
       name: "Careers",
-      url: "/careers",
+      url: "/",
     },
   ];
   return (
     <div className={visible ? "nav" : "nav-inv"}>
-      <img src={logo} alt="Carbon UTurn" className="nav-logo" />
+      <Link to="/">
+        <img src={logo} alt="Carbon UTurn" className="nav-logo" />
+      </Link>
       <div className="nav-controls">
         {navItems.map((item) => {
           return (
@@ -69,7 +71,7 @@ const Navbar = () => {
         })}
       </div>
       <div className="balancing-div">
-        <div className="nav-cta">Get Started</div>
+        <a href="#next-section"><div className="nav-cta">Get Started</div></a>
       </div>
     </div>
   );
