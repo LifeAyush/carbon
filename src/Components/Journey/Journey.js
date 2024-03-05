@@ -12,7 +12,7 @@ const Journey = () => {
     };
     const transform = (elem) => {
       const offset = elem.parentElement.offsetTop;
-      console.log(offset);
+      //console.log(offset);
       let percentage = ((window.scrollY - offset) / window.innerHeight) * 100;
       slider.style.transform = `translate3d(${-percentage + 40}vw, 0, 0)`;
     };
