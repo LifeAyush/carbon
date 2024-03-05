@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import logo from "../../Assets/Images/logo.svg";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -53,7 +54,9 @@ const Navbar = () => {
   ];
   return (
     <div className={visible ? "nav" : "nav-inv"}>
-      <img src={logo} alt="Carbon UTurn" className="nav-logo" />
+      <Link to="/">
+        <img src={logo} alt="Carbon UTurn" className="nav-logo" />
+      </Link>
       <div className="nav-controls">
         {navItems.map((item) => {
           return (
