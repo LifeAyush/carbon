@@ -7,7 +7,7 @@ const OurServicesCard = ({ data }) => {
   useEffect(() => {
     setTimeout(() => {
       setFlipped(false);
-    }, 5000);
+    }, 3000);
   }, [flipped]);
   
   return (

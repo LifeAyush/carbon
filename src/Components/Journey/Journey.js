@@ -23,7 +23,7 @@ const Journey = () => {
     };
   }, []);
   return (
-    <div className="journey">
+    <div className="journey" id="next-section">
       <section className="journey-slider-container" ref={cont}>
         <div className="journey-content">
           <span className="journey-content-subtitle">Your U-turn to</span>

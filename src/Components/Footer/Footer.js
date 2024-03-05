@@ -17,17 +17,17 @@ const Footer = () => {
       <div className="footerlogoaddress">
         <img className="footerlogo" src={footerlogo} alt="Carbon UTurn"></img>
         <div className="footeraddress">
-          XYZ sector Gurgaon, India <br></br> +91 1234567890
+          Gurgaon, India - 122009 <br></br> +91 99999 89500
         </div>
       </div>
       <div className="footercontent">
         <div className="footerfirstline">
-          <h1 className="footerheading">Subscribe Newsletter!</h1>
-          <input
+          {/* <h1 className="footerheading">Subscribe Newsletter!</h1> */}
+          {/* <input
             className="footeremail"
             type="email"
             placeholder="Enter Your Email"
-          ></input>
+          ></input> */}
         </div>
         <div className="footersecondline">
           <div className="footerlist">
