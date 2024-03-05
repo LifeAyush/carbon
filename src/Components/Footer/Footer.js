@@ -36,12 +36,10 @@ const Footer = () => {
             </div>
             <div>
               <ul>
-              
-              <li>E-Learning Modules</li>
-               <li>Carbon Accounting Dashboard</li>
+                <li>E-Learning Modules</li>
+                <li>Carbon Accounting Dashboard</li>
                 <li>Registration</li>
-              <li>Carbon Credit Marketplace</li>
-               
+                <li>Carbon Credit Marketplace</li>
               </ul>
             </div>
           </div>
@@ -64,4 +62,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
