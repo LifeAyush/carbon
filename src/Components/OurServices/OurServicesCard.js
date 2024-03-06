@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ourServices.css";
-import ReactCardFlip from "react-card-flip";
 
 const OurServicesCard = ({ data }) => {
   const [flipped, setFlipped] = useState(false);
