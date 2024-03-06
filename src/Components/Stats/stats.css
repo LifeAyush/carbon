@@ -4,34 +4,32 @@
   justify-content: center;
   flex-direction: column;
 }
-.main-2{
+.main-2 {
   height: 90%;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 2px solid #f6f3f3;
-      border-radius: 12px;
-      /* padding: 20px; */
-      border: opacity 0.5em;
-  
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  /* padding: 20px; */
+  border: opacity 0.5em;
 }
-.heading-stats{
+.heading-stats {
   /* color: #f6f3f3; */
   text-align: center;
   display: flex;
   justify-content: center;
-  left:50;
+  left: 50;
 
   font-family: "Milliard";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-top: 0;
-    line-height: 32px;
- 
-    color: #fbfcf8;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 0;
+  line-height: 32px;
+
+  color: #fbfcf8;
 }
 .card-grid {
   display: flex;
@@ -40,8 +38,10 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 40px;
-  
-   
+  background-color: rgba(209, 217, 217, 0.05);
+  border: 2px solid #f6f3f3;
+  border-radius: 15px;
+
   /* outline: 2px solid #F6F3F3;
     outline-offset: -20px; */
   /* border: 2px solid white;
@@ -67,32 +67,19 @@
   }
 }
 
-
-
-  
-
-@media(max-width:700px) {
-    .card-grid .scard {
-        flex: 0 0 calc(100% - 20px);
-        max-width: calc(100% - 20px);
-
-    }
-
-   
-
+@media (max-width: 700px) {
+  .card-grid .scard {
+    flex: 0 0 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
 
   .nav {
     justify-content: space-between;
   }
 
-   
-
-    
-
   .card-grid {
     justify-content: center;
   }
-
 
   .page {
     padding-left: 10px;
@@ -100,31 +87,17 @@
     align-items: center;
   }
 
-
   .heading-section .heading-flex {
     align-items: center;
   }
-
-
-
 }
 
-
-@media(max-width: 370px) {
-    .card-grid .scard {
-        width: 250px;
-    }
-
-   
-
-
-    
-
-
-  
+@media (max-width: 370px) {
+  .card-grid .scard {
+    width: 250px;
+  }
 
   .scard-header-title {
     font-size: 20px;
-  }}
-
-
+  }
+}
