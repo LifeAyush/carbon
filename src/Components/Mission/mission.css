@@ -1,0 +1,58 @@
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(../../Assets/Images/aboutMissionBg.png);
+  background-size: cover;
+  background-position: center center;
+  gap: 100px;
+}
+.vision {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: 100vh;
+  background: url(../../Assets/Images/visionBg.png);
+  background-size: cover;
+  background-position: center center;
+  gap: 100px;
+}
+.mission-img {
+  width: 454px;
+  object-fit: cover;
+}
+.mission-flex {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  width: 800px;
+  /* border: 1px solid red; */
+  margin-top: 14em;
+}
+.mission-title {
+  color: rgba(1, 30, 34, 0.93);
+  font-family: Florencesans-Black;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137.5%;
+  text-transform: uppercase;
+}
+.mission-hr {
+  width: 15%;
+  height: 8px;
+  background: #014d4a;
+}
+.mission-subtitle {
+  color: #000;
+  font-family: Milliard;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  width: 100%;
+}
