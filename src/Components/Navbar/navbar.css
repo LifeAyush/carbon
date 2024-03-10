@@ -45,9 +45,9 @@
   gap: 28px;
   border-radius: 32px;
   /* background-color: rgba rgba(27, 27, 27, 0.29); */
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
-    backdrop-filter: blur(15px);
-  background: rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.5);
 }
 .nav-item {
   color: #fff;
@@ -88,4 +88,11 @@
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav,
+  .nav-inv {
+    display: none;
+  }
 }

@@ -45,7 +45,7 @@ const Stats = () => {
   return (
     <>
       <div
-        className="main"
+        className="stats-main"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
@@ -54,15 +54,11 @@ const Stats = () => {
           height: "100vh",
         }}
       >
-        <div className="main-2">
-          <div className="heading-stats">
-            <h1> We are committed to migrating</h1>
-          </div>
-          <div className="card-grid">
-            {sData.map((group, id) => {
-              return <Scard key={id} data={group} />;
-            })}
-          </div>
+        <h1 className="heading-stats">We are committed to mitigating</h1>
+        <div className="card-grid">
+          {sData.map((group, id) => {
+            return <Scard key={id} data={group} />;
+          })}
         </div>
       </div>
     </>

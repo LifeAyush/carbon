@@ -9,9 +9,6 @@ const Footer = () => {
       className="footer"
       style={{
         backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="footerlogoaddress">
