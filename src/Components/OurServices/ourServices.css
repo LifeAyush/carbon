@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background: linear-gradient(117deg, #e7fffe 5.4%, #fff 49.4%, #dffdfc 96.4%);
+  padding: 10vh;
 }
 .our-services-content {
   display: flex;
@@ -153,4 +153,29 @@
   font-weight: 400;
   line-height: 120%;
   padding: 0px 24px;
+}
+@media screen and (max-width: 768px) {
+  .our-services {
+    padding: 5vh 0;
+  }
+  .our-services-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    column-gap: 5vw;
+    row-gap: 5vh;
+    padding: 0 5vw;
+  }
+  .service-card {
+    width: unset;
+    height: 30vh;
+  }
+  .our-sevices-title {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+  .our-services-card-text {
+    font-size: 1rem;
+  }
 }

@@ -1,80 +1,36 @@
 .scard {
+  grid-column: span 2;
+  color: white;
   display: flex;
   flex-direction: column;
-
-  height: 240px;
-  flex: 0 0 calc(33% - 20px);
-  justify-content: flex-start;
   align-items: center;
-  max-width: calc(33% - 20px);
-  gap: 0.5rem;
-}
-
-/* .scard:hover .scard-body {
-    background: rgba(56, 56, 56, 0.1);
-}
-
-.scard:hover .scard-header-title {
-    color: #475467;
-}
-
-.scard:hover .scard-header-val {
-    color: #5a6b8398;
-} */
-
-.scard-img {
-   width: 100px;
-  height: 100px; 
-  border-radius: 0;
   justify-content: center;
-  display: flex;
-  flex-direction: column-reverse;
-  transition: transform 0.7s ease-in-out;
-}
-.scard-img:hover {
-  transform: rotate(360deg);
-}
-
-.scard-body {
-  display: flex;
-  flex-direction: column;
-
-  /* padding: 20px 0 0 0; */
-  /* background: #ffffff; */
-  height: 100px;
-  transition: all 0.3s ease;
-}
-
-.scard-header {
-  display: flex;
-  flex-direction: column;
-  /* gap: 8px; */
-  align-items: center;
-  width: 300px;
   text-align: center;
+  width: 75%;
 }
 
-.scard-header-title {
-  font-family: "Milliard";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 32px;
-  margin: 0;
-  color: #fbfcf8;
-  transition: all 0.3s ease;
+.scard:nth-of-type(4) {
+  grid-column: 2 / span 2;
 }
 
-
-.scard-header-val {
-font-family: "Milliard";
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
-    font-size: 1rem;
-
-
-    color: #FBFCF8;
-    transition: all 0.3s ease;
-
+@media screen and (max-width: 768px) {
+  .scard {
+    grid-column: span 3;
+    width: 90%;
+  }
+  .scard-img {
+    width: 18vw;
+  }
+  .scard:nth-of-type(3) {
+    grid-column: 1 / span 6;
+  }
+  .scard:nth-of-type(4) {
+    grid-column: span 3;
+  }
+  .scard-header-title {
+    font-size: 1.5rem;
+  }
+  .scard-header-val {
+    font-size: 0.75rem;
+  }
 }
