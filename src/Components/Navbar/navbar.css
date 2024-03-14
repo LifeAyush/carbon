@@ -1,98 +1,131 @@
 .nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 100px;
-  position: fixed;
-  z-index: 10;
-  top: 0px;
-  left: 0px;
-  animation-name: comeIN;
-  animation-duration: 0.35s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 100px;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    animation-name: comeIN;
+    animation-duration: 0.35s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 @keyframes comeIN {
-  0% {
-    top: -100px;
-  }
-  100% {
-    top: 0px;
-  }
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 0px;
+    }
 }
 .nav-inv {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  padding: 36px 100px;
-  position: fixed;
-  z-index: 10;
-  top: -100px;
-  left: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 100px;
+    position: fixed;
+    z-index: 10;
+    top: -100px;
+    left: 0px;
 }
 .nav-logo {
-  width: 200px;
-  object-fit: cover;
+    width: 200px;
+    object-fit: cover;
 }
 .nav-controls {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 28px;
-  border-radius: 32px;
-  /* background-color: rgba rgba(27, 27, 27, 0.29); */
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(15px);
-  background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    border-radius: 32px;
+    /* background-color: rgba rgba(27, 27, 27, 0.29); */
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.5);
 }
 .nav-item {
-  color: #fff;
-  font-family: Milliard;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
+    color: #fff;
+    font-family: Milliard;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
 .nav-item-active {
-  text-decoration: none;
-  color: var(--light-green);
-  font-family: Milliard;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    text-decoration: none;
+    color: var(--light-green);
+    font-family: Milliard;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .balancing-div {
-  width: 200px;
-  display: flex;
-  justify-content: flex-end;
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
 }
 .nav-cta {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  border-radius: 32px;
-  background: var(--Darkest-green);
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-family: Milliard;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  cursor: pointer;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: var(--Darkest-green);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-family: Milliard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.mobile-view {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {
-  .nav,
-  .nav-inv {
-    display: none;
-  }
+    .nav,
+    .nav-inv {
+        display: none;
+    }
+
+    .mobile-view {
+        top: 0;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 2vh 5vw;
+        z-index: 2;
+    }
+
+    .nav-slider {
+        position: fixed;
+        top: 0;
+        width: 60vw;
+        transition: 0.5s ease-in-out;
+        background-color: rgba(0, 0, 0);
+        height: 100vh;
+        padding: 2vh 5vw;
+        color: white;
+    }
+
+    .mobile-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin: 5vh 0;
+    }
 }
