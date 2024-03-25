@@ -1,0 +1,6 @@
+.resources-main {
+	background: linear-gradient(117deg, #e7fffe 5.4%, #fff 49.4%, #dffdfc 96.4%);
+	display: flex;
+	flex-direction: column;
+	gap: 10vh;
+}

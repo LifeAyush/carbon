@@ -1,0 +1,53 @@
+.resources-hero {
+	position: relative;
+	padding: 10vh 5vw;
+}
+
+.resources-hero-img {
+	width: 90vw;
+	height: 80vh;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.resources-overlay {
+	content: "";
+	background-color: rgb(16, 16, 16, 0.5);
+	opacity: 0.6;
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	width: 90vw;
+	height: 80vh;
+	border-radius: 25px;
+}
+
+.resources-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: max-content;
+}
+
+.resources-hero-heading {
+	font-size: 5.5rem;
+	text-transform: uppercase;
+	font-family: MilliardBold;
+	background: -webkit-linear-gradient(0deg, #c3c2c2 0%, #ffffff 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.resources-hero-subheading {
+	font-size: 2rem;
+	color: white;
+}
+
+.resources-hero-para {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 5vh;
+}

@@ -1,0 +1,16 @@
+.resources-blogs-heading {
+	font-family: Florencesans-Black;
+	text-transform: uppercase;
+	font-size: 6rem;
+	padding: 0 5vw;
+	color: #014d4a;
+}
+.resources-blogs-subheading {
+	padding: 0 5vw;
+	font-size: 2rem;
+}
+.blogs-scroll {
+	display: flex;
+	gap: 5vw;
+	overflow-x: scroll;
+}
