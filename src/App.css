@@ -4,13 +4,17 @@
   padding: 0px;
   margin: 0px;
   scroll-behavior: smooth;
-  font-family: "Milliard";
+  font-family: Milliard;
 }
 
 /* Fonts */
 @font-face {
   font-family: Milliard;
   src: url(./Assets/Fonts/Millard/Millard.otf);
+}
+@font-face {
+  font-family: MilliardBold;
+  src: url(./Assets//Fonts/Millard/Milliard\ Bold.otf);
 }
 @font-face {
   font-family: Florencesans-Black;

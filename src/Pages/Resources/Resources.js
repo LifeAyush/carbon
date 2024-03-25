@@ -1,10 +1,19 @@
-import React from 'react'
-import "./resources.css"
+import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
+import "./resources.css";
+import Hero from "../../Components/Resources/Hero/Hero";
+import Blogs from "../../Components/Resources/Blogs/Blogs.jsx";
 
 const Resources = () => {
-  return (
-    <div>Resources</div>
-  )
-}
+	return (
+		<>
+			<Navbar />
+			<main className="resources-main">
+				<Hero />
+				<Blogs />
+			</main>
+		</>
+	);
+};
 
-export default Resources
+export default Resources;
