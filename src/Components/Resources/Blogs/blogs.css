@@ -15,7 +15,12 @@
     gap: 5vw;
     overflow-x: scroll;
     padding: 2vh 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+.blogs-scroll::-webkit-scrollbar {
+    display: none;
+  }
 .blogs-btn {
     background-color: #014d4a;
     border: 0px;
