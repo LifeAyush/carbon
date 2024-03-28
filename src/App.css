@@ -1,36 +1,36 @@
 /* Global Styles */
 * {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  scroll-behavior: smooth;
-  font-family: Milliard;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: "Milliard";
 }
 
 /* Fonts */
 @font-face {
-  font-family: Milliard;
-  src: url(./Assets/Fonts/Millard/Millard.otf);
+    font-family: "Milliard";
+    src: url(./Assets/Fonts/Millard/Millard.otf);
 }
 @font-face {
-  font-family: MilliardBold;
-  src: url(./Assets//Fonts/Millard/Milliard\ Bold.otf);
+    font-family: "MilliardBold";
+    src: url(./Assets//Fonts/Millard/Milliard\ Bold.otf);
 }
 @font-face {
-  font-family: Florencesans-Black;
-  src: url(./Assets/Fonts/FlourenceSans/FlorenceSans.ttf);
+    font-family: "Florencesans-Black";
+    src: url(./Assets/Fonts/FlourenceSans/FlorenceSans.ttf);
 }
 
 /* Variables */
 :root {
-  --white: #fbfcf8;
-  --dark-grey: #303030;
-  --light-green: #2cda8b;
-  --second-green: #014d4a;
-  --Darkest-green: #02353c;
+    --white: #fbfcf8;
+    --dark-grey: #303030;
+    --light-green: #2cda8b;
+    --second-green: #014d4a;
+    --Darkest-green: #02353c;
 }
 
 /* App Styling */
 .App {
-  position: relative;
+    position: relative;
 }

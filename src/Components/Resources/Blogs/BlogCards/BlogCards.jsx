@@ -1,15 +1,17 @@
-import "./blogCards.css";
-import Arrow from "../../../../Assets/Images/Arrow.png";
+import "./blogCards.css"
+import Arrow from "../../../../Assets/Images/Arrow.svg"
 
 export default function BlogCards({ img, title, text }) {
-	return (
-		<section>
-			<img src={img} alt="" />
-			<img src={Arrow} alt="" />
-			<div>
-				<p>{title}</p>
-				<p>{text}</p>
-			</div>
-		</section>
-	);
+    return (
+        <section className="blog-card">
+            <img className="blog-card-img" src={img} alt="" />
+            <div className="blog-card-arrow">
+                <img src={Arrow} alt="" />
+            </div>
+            <div className="blog-card-content">
+                <p className="blog-card-head">{title}</p>
+                <p className="blog-card-para">{text}</p>
+            </div>
+        </section>
+    )
 }

@@ -15,7 +15,7 @@
 }
 .ott-title {
     color: var(--second-green, #014d4a);
-    font-family: Florencesans-Black;
+    font-family: "Florencesans-Black";
     font-size: 96px;
     font-style: normal;
     font-weight: 700;
@@ -29,7 +29,7 @@
 }
 .ott-subtitle {
     color: #000;
-    font-family: Milliard;
+    font-family: "Milliard";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -76,7 +76,7 @@
 .team-card-title {
     color: var(--white, #fbfcf8);
     text-align: center;
-    font-family: Milliard;
+    font-family: "Milliard";
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -98,7 +98,7 @@
 .team-card-sub-title {
     color: var(--white, #fbfcf8);
     text-align: center;
-    font-family: Milliard;
+    font-family: "Milliard";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

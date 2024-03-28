@@ -35,7 +35,7 @@
 }
 .mission-title {
     color: rgba(1, 30, 34, 0.93);
-    font-family: Florencesans-Black;
+    font-family: "Florencesans-Black";
     font-size: 4rem;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +49,7 @@
 }
 .mission-subtitle {
     color: #000;
-    font-family: Milliard;
+    font-family: "Milliard";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
